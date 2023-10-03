@@ -1,0 +1,50 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_foreground_task (0.0.1):
+    - Flutter
+  - NWWebSocket (0.5.3)
+  - pusher_channels_flutter (0.0.1):
+    - Flutter
+    - PusherSwift (~> 10.1.4)
+  - PusherSwift (10.1.4):
+    - NWWebSocket (~> 0.5.3)
+    - TweetNacl (~> 1.0.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - TweetNacl (1.0.2)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_foreground_task (from `.symlinks/plugins/flutter_foreground_task/ios`)
+  - pusher_channels_flutter (from `.symlinks/plugins/pusher_channels_flutter/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - NWWebSocket
+    - PusherSwift
+    - TweetNacl
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_foreground_task:
+    :path: ".symlinks/plugins/flutter_foreground_task/ios"
+  pusher_channels_flutter:
+    :path: ".symlinks/plugins/pusher_channels_flutter/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_foreground_task: 21ef182ab0a29a3005cc72cd70e5f45cb7f7f817
+  NWWebSocket: 05fc4419102f33934f87157d70228837e327064f
+  pusher_channels_flutter: 2bc74ab92bacd0ac436e10fa326125408d3c7598
+  PusherSwift: 671c49e9c5441e30960d2e0282a879b2f8c80bcb
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
+
+PODFILE CHECKSUM: bd295fc198b245bb51189c8140d55e735c8dd822
+
+COCOAPODS: 1.12.1
